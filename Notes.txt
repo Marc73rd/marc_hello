@@ -1,1 +1,5 @@
 git revert --no-commit XXXXXX..HEAD
+git checkout -b <branchname>
+git checkout master
+git push origin <branchname>
+git push origin master
